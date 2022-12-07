@@ -30,10 +30,14 @@ conda create --name PythonPackageTemplate python=3.7
 conda activate PythonPackageTemplate 
 ```
 When prompted, just say "y". Then, you simply follow the tutorial to install sphinx, and to generate files and the docs folder. 
+Despite what the tutorial says, I still recommend specifying the version when installing packages. Therefore, we can use 
 
-<b>
+```shell
+conda install sphinx=5.0.2
+```
+
+
 I separated source and build directories. For a brief answer, see [here](https://stackoverflow.com/questions/65829149/what-does-separate-source-and-build-directories-mean)
-</b>
 
 
 
