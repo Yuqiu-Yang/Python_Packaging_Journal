@@ -5,6 +5,60 @@ This repo will serve as a template for all future packages written in Python.
 
 In this README file, I will also jot down the process of me creating this package from scratch so that it can also serve as a tutorial (or a knowledge base). However, before I get started, I would like to give credit to [Kevin Wang](https://github.com/kevin931/PythonTemplate). This is his package that inspired me to do this.
 
+# Conda Environment 
+I use conda to create the environment. Commonly used codes are 
+To create a new environment from scratch
+
+```shell
+conda create --name PythonPackageTemplate python=3.7
+```
+
+To activate an environment
+
+```shell
+conda activate PythonPackageTemplate 
+```
+
+To export an environment 
+
+```shell
+conda env export | grep -v "^prefix: " > python_package_template_environment.yml
+```
+The ``| grep -v "^prefix: "`` can be ignored if you do not mind other people knowing your default install path. 
+
+To create an environment from a ``.yml`` file
+
+```shell
+conda env create -f python_package_template_environment.yml
+```
+You can specify the Python version if you want (the envirnment is Python 3.7)
+
+
+
+# Online documentation 
+Register your free account on Read the docs, and follow their tutorial. 
+
+```shell
+conda install sphinx=5.0.2
+```
+
+# Unit test
+
+```shell
+conda install pytest=7.1.2
+```
+
+```shell
+cd ./PythonPackageTemplate
+mkdir tests
+```
+
+
+# Packaging (dependencies)
+
+
+
+
 <b> This will be updated rather frequently. The steps, in the future, will probably be moved to another place</b>
 # Creation process 
 ## Step 1: Create a new repo 
@@ -29,7 +83,7 @@ We will create an environment for this project, use the following code
 conda create --name PythonPackageTemplate python=3.7
 conda activate PythonPackageTemplate 
 ```
-When prompted, just say "y". Then, you simply follow the tutorial to install sphinx, and to generate files and the docs folder. 
+When prompted, just say "y". Yes, I chose Python 3.7 since I think it's probably the lowest requirment for lots of popular packages. Feel free to change it. Then, you simply follow the tutorial to install sphinx, and to generate files and the docs folder. 
 Despite what the tutorial says, I still recommend specifying the version when installing packages. Therefore, we can use 
 
 ```shell
@@ -40,6 +94,12 @@ conda install sphinx=5.0.2
 I separated source and build directories. For a brief answer, see [here](https://stackoverflow.com/questions/65829149/what-does-separate-source-and-build-directories-mean)
 
 
+## Step 3: Unit test and code coverage
+I am using ``pytest``. Just in your conda environment, type 
+
+```shell
+conda install pytest=7.1.2
+```
 
 
 
