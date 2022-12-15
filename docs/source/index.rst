@@ -6,6 +6,11 @@
 Python Package Template
 =================================================
 
+.. toctree::
+   :maxdepth: 1
+   :caption: Conda Environment
+
+   conda_env
 
 .. toctree::
    :maxdepth: 2
