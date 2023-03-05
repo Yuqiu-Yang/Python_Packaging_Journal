@@ -1,5 +1,0 @@
-Conda Environment
-================
-
-Environment
-------------

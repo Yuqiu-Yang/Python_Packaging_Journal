@@ -1,2 +1,0 @@
-Readthedocs.io and Sphinx
-=========================

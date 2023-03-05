@@ -19,19 +19,47 @@ Being an absolute novice myself, I myself am still exploring this vast and fast-
 However, during this process, I find it extremely helpful to jot down what I learned so far for future reference. 
 This can serve as a knowledge base.
 
-.. note::
-   This project is under active development
+.. toctree:: 
+   :maxdepth: 1
+   :caption: Github
+
+   github/index
 
 .. toctree::
    :maxdepth: 1
-   :caption: Conda Environment
+   :caption: Conda 
 
-   conda_env
+   conda/index
 
 .. toctree::
    :maxdepth: 1
-   :caption: Readthedocs and Sphinx
+   :caption: Directory Structure
 
+   directory/index
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Unit Test
+
+   unit_test/index
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Read The Docs 
+
+   read_the_docs/index
+
+.. toctree::
+   :maxdepth: 1
+   :caption: PyPI/Conda
+
+   publish/index
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Miscellaneous
+
+   mis/index
 
 Indices and tables
 ==================
