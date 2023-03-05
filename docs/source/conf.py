@@ -10,7 +10,7 @@ sys.path.insert(0, os.path.abspath('../../'))
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'PythonPackageTemplate'
+project = 'Python Packaging Journal'
 copyright = '2022, Yuqiu (Ian) Yang'
 author = 'Yuqiu (Ian) Yang'
 release = '0.0.1'

@@ -6,11 +6,18 @@
 .. image:: ../../assets/logo.png
    :width: 600
 
-Python Package Template
+Python Packaging Journal
 =================================================
 
-**PythonPackageTemplate** serves both as a template for future Python-based 
-package and a knowledge base.
+Nowadays, Python has almost become an ubiquitous programming language. People from various 
+backgrounds utilize Python to create all kinds tools to facilitate their jobs or simply for fun. 
+Although Python is itself a simple language, organizing Python code or creating a Python-based 
+package could be a bit overwhelming for newcomers including myself (what's a license, why do we use conda,
+ what is PyPI, what are all those weird configuration files, etc.). 
+
+Being an absolute novice myself, I myself am still exploring this vast and fast-evolving field. 
+However, during this process, I find it extremely helpful to jot down what I learned so far for future reference. 
+This can serve as a knowledge base.
 
 .. note::
    This project is under active development

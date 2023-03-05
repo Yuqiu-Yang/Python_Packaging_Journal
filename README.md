@@ -1,10 +1,35 @@
-# PythonPackageTemplate
-## A template for Python-based package development
+# Python Packaging Journal
 
-This repo will serve as a template for all future packages written in Python. 
+![Logo](/assets/logo.png)
 
-In this README file, I will also jot down the process of me creating this package from scratch so that it can also serve as a tutorial (or a knowledge base). However, before I get started, I would like to give credit to [Kevin Wang](https://github.com/kevin931/PythonTemplate). This is his package that inspired me to do this.
+Nowadays, Python has almost become an ubiquitous programming language. People from various 
+backgrounds utilize Python to create all kinds tools to facilitate their jobs or simply for fun. Although Python is itself a simple language, organizing Python code or creating a Python-based package could be a bit overwhelming for newcomers including myself (what's a license, why do we use conda, what is PyPI, what are all those weird configuration files, etc.). 
 
+Being an absolute novice myself, I myself am still exploring this vast and fast-evolving field. However, during this process, I find it extremely helpful to jot down what I learned so far for future reference. This can serve as a knowledge base. So, here we are :smile:. 
+
+Before I get started, I would like to give credit to [Kevin Wang](https://github.com/kevin931/PythonTemplate). This is his package that inspired me to do this :clap:.
+
+(BTW, if you are wondering how I added Emojis, here is a great [website for your reference](https://www.webfx.com/tools/emoji-cheat-sheet/)).
+
+Of course, there is no way for me alone to cover all difference user cases. Coming from a background of Statistics, in this repo, I will mainly focus on creating a Python-based package for scientific computing purposes (kind like [numpy](https://numpy.org/) but a really shabby version :flushed:).
+
+Currently, I am planning to walk through every single step from creating a Github repo to publishing the package (on PyPI and/or Conda). The following are the content
+
+- [Github](www.google.com)
+- [Conda](www.google.com)
+- [Directory structure](www.google.com)
+- [Unit tests](www.google.com)
+- [Read The Docs](www.google.com)
+- [PyPI/Conda](www.google.com)
+- [Miscellaneous reference](www.google.com) 
+    - Markdown
+    - reStructuredText
+    - Emoji
+
+Of course, as I am learning, the content of the repo will be constantly updated. 
+
+
+<!-- 
 # Conda Environment 
 I use conda to create the environment. Commonly used codes are 
 To create a new environment from scratch
@@ -107,4 +132,4 @@ conda install pytest=7.1.2
 
 
 # How to use this template 
-
+ -->
