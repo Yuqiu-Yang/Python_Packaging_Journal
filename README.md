@@ -13,15 +13,16 @@ Before I get started, I would like to give credit to [Kevin Wang](https://github
 
 Of course, there is no way for me alone to cover all difference user cases. Coming from a background of Statistics, in this repo, I will mainly focus on creating a Python-based package for scientific computing purposes (kind like [numpy](https://numpy.org/) but a really shabby version :flushed:).
 
-Currently, I am planning to walk through every single step from creating a Github repo to publishing the package (on PyPI and/or Conda). The following are the content
+Currently, I am planning to walk through every single step from creating a Github repo to publishing the package (on PyPI and/or Conda). The following content are included in the 
+[online document](https://python-packaging-journal.readthedocs.io/en/latest/)
 
-- [Github](www.google.com)
-- [Conda](www.google.com)
-- [Directory structure](www.google.com)
-- [Unit tests](www.google.com)
-- [Read The Docs](www.google.com)
-- [PyPI/Conda](www.google.com)
-- [Miscellaneous reference](www.google.com) 
+- [Github](https://python-packaging-journal.readthedocs.io/en/latest/github/index.html)
+- [Conda](https://python-packaging-journal.readthedocs.io/en/latest/conda/index.html)
+- [Directory structure](https://python-packaging-journal.readthedocs.io/en/latest/directory/index.html)
+- [Unit tests](https://python-packaging-journal.readthedocs.io/en/latest/unit_test/index.html)
+- [Read The Docs](https://python-packaging-journal.readthedocs.io/en/latest/read_the_docs/index.html)
+- [PyPI/Conda](https://python-packaging-journal.readthedocs.io/en/latest/publish/index.html)
+- [Miscellaneous reference](https://python-packaging-journal.readthedocs.io/en/latest/mis/index.html)
     - Markdown
     - reStructuredText
     - Emoji
