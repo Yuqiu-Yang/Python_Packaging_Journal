@@ -26,6 +26,7 @@ Currently, I am planning to walk through every single step from creating a Githu
     - Markdown
     - reStructuredText
     - Emoji
+    - License
 
 Of course, as I am learning, the content of the repo will be constantly updated. 
 
